@@ -1,10 +1,10 @@
-import { useEffect, useRef, useState } from "react";
-import type { Schema } from "../amplify/data/resource";
-import { generateClient } from "aws-amplify/data";
+import {  useRef } from "react";
+// import type { Schema } from "../amplify/data/resource";
+// import { generateClient } from "aws-amplify/data";
 import dayjs from "dayjs";
 import CryptoJS from "crypto-js";
 
-const client = generateClient<Schema>();
+// const client = generateClient<Schema>();
 
 function App() {
   // const [todos, setTodos] = useState<Array<Schema["Todo"]["type"]>>([]);
